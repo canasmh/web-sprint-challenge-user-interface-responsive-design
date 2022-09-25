@@ -224,6 +224,36 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    background: rgb(0, 4, 17);
+    border-top: 1px solid rgb(225, 239, 230);
+    align-items: baseline;
+}
+
+div.email-signup {
+    width: 30vw;
+
+}
+footer nav {
+    width: 65vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+div.copyright {
+    width: 100%;
+    text-align: right;
+}
+
+div.copyright p {
+    font-size: 1rem;
+}
+
+footer button {
+    color: #000;
 }
 
 /* mobile media query */
