@@ -102,16 +102,14 @@ div.header {
 nav a, h1 {
     color: rgb(225, 239, 230);
 }
-
-nav {
-    display: flex;
-    flex-direction: row nowrap;
-    justify-content: space-around;
+nav a {
+    margin: 3rem 5%;
 }
 
 i.fa-brands {
     font-size: 3rem;
-    margin: 2rem 5rem;
+    margin: 3rem 5%;
+    display: inline-block
 }
 /* spacers */
 .spacer {
