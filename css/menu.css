@@ -136,11 +136,15 @@ i.fa-brands {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgba(0, 4, 17, 0.8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 3% 5%;
+}
+
+.menu::before {
+    opacity: 0.2;
 }
 
 .menu h2 {
@@ -225,6 +229,14 @@ footer button {
         font-size: 4rem;
     }
 
+    h1 {
+        font-size: 6.2rem;
+    }
+    
+    nav div {
+        flex-flow: column nowrap;
+    }
+
     /* menu */
     .menu {
         background-image: none;
@@ -235,5 +247,27 @@ footer button {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        text-align: center;
+    }
+
+    div.email-signup {
+        width: 100%;
+    }
+
+    footer nav {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    div.copyright {
+        width: 100%;
+        text-align: center;
+    }
+    
+    div.copyright p {
+        font-size: 1.2rem;
     }
 }
