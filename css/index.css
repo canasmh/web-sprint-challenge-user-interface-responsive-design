@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    color: rgb(225, 239, 230);
 }
 
 html {
@@ -96,12 +97,8 @@ header {
 div.header {
     background-color: rgb(0, 4, 17, .8);
     text-align: center;
-    color: rgb(225, 239, 230);
 }
 
-nav a, h1 {
-    color: rgb(225, 239, 230);
-}
 nav div {
     display: flex;
     flex-flow: row nowrap;
@@ -131,6 +128,19 @@ i.fa-brands {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+}
+
+div.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.images img {
+    margin: 2rem 1rem;
+    width: 45rem;
+    height: 25rem;
 }
 
 /* about us section */
