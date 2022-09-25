@@ -102,8 +102,10 @@ div.header {
 nav a, h1 {
     color: rgb(225, 239, 230);
 }
-nav a {
-    margin: 3rem 5%;
+nav div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
 i.fa-brands {
