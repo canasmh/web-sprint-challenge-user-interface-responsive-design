@@ -240,6 +240,35 @@ footer button {
     /* menu */
     .menu {
         background-image: none;
+        background-color: rgb(225, 239, 230);
+        text-align: center;
+        
+    }
+
+    .menu-section, .menu-item, .menu-container {
+        display: block;
+        text-align: center;
+    }
+
+    .menu-section {
+        width: 90%;
+    }
+
+    .menu-section h3 {
+        border: 2px solid rgb(0, 4, 17);
+    }
+    .menu-item {
+        width: 80%;
+        border-bottom: 8px solid rgb(0, 4, 17);
+        margin: 0 auto 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .menu-section .menu-item:last-child {
+        border: none;
+    }
+    .menu h2, .menu-section h3, .menu-item h4, .menu-item p {
+        color: rgb(0, 4, 17);
     }
 
     /* footer section */
